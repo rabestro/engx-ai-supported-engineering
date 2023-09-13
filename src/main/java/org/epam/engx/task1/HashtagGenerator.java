@@ -1,4 +1,4 @@
-package org.epam.engx;
+package org.epam.engx.task1;
 
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
@@ -10,7 +10,6 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
 import static java.util.function.Predicate.not;
