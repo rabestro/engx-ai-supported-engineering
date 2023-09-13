@@ -14,7 +14,22 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <opennlp.version>2.3.0</opennlp.version>
     <slf4j.version>2.0.9</slf4j.version>
+    <junit.platform.version>1.9.2</junit.platform.version>
+    <junit.version>5.9.2</junit.version>
+    <asserj.version>3.24.2</asserj.version>
   </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>
@@ -35,6 +50,23 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jdk14</artifactId>
       <version>${slf4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>${asserj.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
