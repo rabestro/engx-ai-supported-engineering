@@ -16,13 +16,13 @@ class TitleCaseConverterBlackBoxC4Test {
   @DisplayName("Test cases:")
   @ParameterizedTest(name = "[{index}] {0}: {1} -> {2}")
   @CsvSource(delimiter = '|', emptyValue = "''", textBlock = """
-      Empty string                    | ''            | ''
-      Single word, all lowercase      | hello         | Hello
-      Single word, all uppercase      | HELLO         | Hello
-      Single word, mixed case         | hELlO         | Hello
-      Multiple words, all lowercase   | hello world   | Hello World
-      Multiple words, all uppercase   | HELLO WORLD   | Hello World
-      Multiple words, mixed case      | hELlO wORLd   | Hello World
+      Empty string                    | ''               | ''
+      Single word, all lowercase      | hello            | Hello
+      Single word, all uppercase      | HELLO            | Hello
+      Single word, mixed case         | hELlO            | Hello
+      Multiple words, all lowercase   | hello world      | Hello World
+      Multiple words, all uppercase   | HELLO WORLD      | Hello World
+      Multiple words, mixed case      | hELlO wORLd      | Hello World
       Multiple words with extra spaces|   hello   world  |   Hello   World  
       """)
   void testTitleCaseConverter(String description, String input, String expectedOutput) {
