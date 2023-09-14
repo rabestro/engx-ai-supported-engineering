@@ -1,4 +1,4 @@
-package org.epam.engx.task2;
+package com.epam.engx.task2;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;

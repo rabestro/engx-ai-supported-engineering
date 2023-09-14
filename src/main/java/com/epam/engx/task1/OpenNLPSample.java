@@ -1,4 +1,4 @@
-package org.epam.engx.task1;
+package com.epam.engx.task1;
 
 import static java.util.Objects.requireNonNull;
 

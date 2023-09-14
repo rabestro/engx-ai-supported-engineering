@@ -1,4 +1,4 @@
-package org.epam.engx.task1;
+package com.epam.engx.task1;
 
 import java.util.Locale;
 import java.util.function.UnaryOperator;

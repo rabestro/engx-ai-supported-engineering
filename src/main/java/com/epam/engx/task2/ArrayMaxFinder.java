@@ -1,4 +1,4 @@
-package org.epam.engx.task2;
+package com.epam.engx.task2;
 
 import java.util.Arrays;
 import java.util.function.ToIntFunction;

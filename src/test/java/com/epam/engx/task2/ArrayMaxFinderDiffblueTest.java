@@ -1,4 +1,4 @@
-package org.epam.engx.task2;
+package com.epam.engx.task2;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

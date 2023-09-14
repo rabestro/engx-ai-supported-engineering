@@ -1,4 +1,4 @@
-package org.epam.engx.task1;
+package com.epam.engx.task1;
 
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;

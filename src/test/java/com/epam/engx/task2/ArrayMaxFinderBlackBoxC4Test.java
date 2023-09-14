@@ -1,4 +1,4 @@
-package org.epam.engx.task2;
+package com.epam.engx.task2;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
