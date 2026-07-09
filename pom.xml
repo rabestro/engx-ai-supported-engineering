@@ -18,11 +18,11 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <opennlp.version>2.3.0</opennlp.version>
+    <opennlp.version>2.5.9</opennlp.version>
     <slf4j.version>2.0.9</slf4j.version>
     <junit.platform.version>1.9.2</junit.platform.version>
     <junit.version>5.9.2</junit.version>
-    <asserj.version>3.24.2</asserj.version>
+    <asserj.version>3.27.7</asserj.version>
   </properties>
 
   <dependencyManagement>
